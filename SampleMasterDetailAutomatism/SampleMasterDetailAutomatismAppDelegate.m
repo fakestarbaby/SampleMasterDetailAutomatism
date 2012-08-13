@@ -8,7 +8,7 @@
 
 #import "SampleMasterDetailAutomatismAppDelegate.h"
 #import "SampleMasterDetailAutomatismMasterViewController.h"
-#import "EventDataManager.h"
+#import "Models/EventDataManager.h"
 
 @implementation SampleMasterDetailAutomatismAppDelegate
 
@@ -46,21 +46,7 @@
 - (void)applicationWillTerminate:(UIApplication *)application
 {
     // Saves changes in the application's managed object context before the application terminates.
-    [self saveContext];
-}
-
-- (void)saveContext
-{
-    NSError *error = nil;
-    NSManagedObjectContext *managedObjectContext = [EventDataManager sharedManager].managedObjectContext;
-    if (managedObjectContext != nil) {
-        if ([managedObjectContext hasChanges] && ![managedObjectContext save:&error]) {
-             // Replace this implementation with code to handle the error appropriately.
-             // abort() causes the application to generate a crash log and terminate. You should not use this function in a shipping application, although it may be useful during development. 
-            NSLog(@"Unresolved error %@, %@", error, [error userInfo]);
-            abort();
-        } 
-    }
+    [[EventDataManager sharedManager] saveContext];
 }
 
 @end
