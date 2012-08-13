@@ -18,6 +18,8 @@
 		A99606A515D914F000A77ECD /* SampleMasterDetailAutomatism.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A99606A315D914F000A77ECD /* SampleMasterDetailAutomatism.xcdatamodeld */; };
 		A99606A815D914F000A77ECD /* SampleMasterDetailAutomatismMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A99606A715D914F000A77ECD /* SampleMasterDetailAutomatismMasterViewController.m */; };
 		A99606AB15D914F000A77ECD /* SampleMasterDetailAutomatismDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A99606AA15D914F000A77ECD /* SampleMasterDetailAutomatismDetailViewController.m */; };
+		A99606D915D9209100A77ECD /* Event.m in Sources */ = {isa = PBXBuildFile; fileRef = A99606D815D9209100A77ECD /* Event.m */; };
+		A99606DC15D920B400A77ECD /* EventDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A99606DB15D920B400A77ECD /* EventDataManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +40,10 @@
 		A99606A715D914F000A77ECD /* SampleMasterDetailAutomatismMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SampleMasterDetailAutomatismMasterViewController.m; sourceTree = "<group>"; };
 		A99606A915D914F000A77ECD /* SampleMasterDetailAutomatismDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SampleMasterDetailAutomatismDetailViewController.h; sourceTree = "<group>"; };
 		A99606AA15D914F000A77ECD /* SampleMasterDetailAutomatismDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SampleMasterDetailAutomatismDetailViewController.m; sourceTree = "<group>"; };
+		A99606D715D9209100A77ECD /* Event.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Event.h; sourceTree = "<group>"; };
+		A99606D815D9209100A77ECD /* Event.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Event.m; sourceTree = "<group>"; };
+		A99606DA15D920B400A77ECD /* EventDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventDataManager.h; sourceTree = "<group>"; };
+		A99606DB15D920B400A77ECD /* EventDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventDataManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +92,7 @@
 		A996069415D914F000A77ECD /* SampleMasterDetailAutomatism */ = {
 			isa = PBXGroup;
 			children = (
+				A99606D515D9207100A77ECD /* Models */,
 				A996069D15D914F000A77ECD /* SampleMasterDetailAutomatismAppDelegate.h */,
 				A996069E15D914F000A77ECD /* SampleMasterDetailAutomatismAppDelegate.m */,
 				A99606A015D914F000A77ECD /* MainStoryboard.storyboard */,
@@ -108,6 +115,17 @@
 				A996069C15D914F000A77ECD /* SampleMasterDetailAutomatism-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A99606D515D9207100A77ECD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A99606D715D9209100A77ECD /* Event.h */,
+				A99606D815D9209100A77ECD /* Event.m */,
+				A99606DA15D920B400A77ECD /* EventDataManager.h */,
+				A99606DB15D920B400A77ECD /* EventDataManager.m */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -179,6 +197,8 @@
 				A99606A515D914F000A77ECD /* SampleMasterDetailAutomatism.xcdatamodeld in Sources */,
 				A99606A815D914F000A77ECD /* SampleMasterDetailAutomatismMasterViewController.m in Sources */,
 				A99606AB15D914F000A77ECD /* SampleMasterDetailAutomatismDetailViewController.m in Sources */,
+				A99606D915D9209100A77ECD /* Event.m in Sources */,
+				A99606DC15D920B400A77ECD /* EventDataManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,6 +312,7 @@
 				A99606B015D914F000A77ECD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
