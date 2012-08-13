@@ -12,6 +12,4 @@
 
 @interface SampleMasterDetailAutomatismMasterViewController : UITableViewController <NSFetchedResultsControllerDelegate>
 
-@property (strong, nonatomic) NSFetchedResultsController *fetchedResultsController;
-
 @end
