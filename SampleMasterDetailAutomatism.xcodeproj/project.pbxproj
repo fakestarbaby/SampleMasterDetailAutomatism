@@ -1,0 +1,312 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A996068D15D914F000A77ECD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A996068C15D914F000A77ECD /* UIKit.framework */; };
+		A996068F15D914F000A77ECD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A996068E15D914F000A77ECD /* Foundation.framework */; };
+		A996069115D914F000A77ECD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A996069015D914F000A77ECD /* CoreGraphics.framework */; };
+		A996069315D914F000A77ECD /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A996069215D914F000A77ECD /* CoreData.framework */; };
+		A996069915D914F000A77ECD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A996069715D914F000A77ECD /* InfoPlist.strings */; };
+		A996069B15D914F000A77ECD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A996069A15D914F000A77ECD /* main.m */; };
+		A996069F15D914F000A77ECD /* SampleMasterDetailAutomatismAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A996069E15D914F000A77ECD /* SampleMasterDetailAutomatismAppDelegate.m */; };
+		A99606A215D914F000A77ECD /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A99606A015D914F000A77ECD /* MainStoryboard.storyboard */; };
+		A99606A515D914F000A77ECD /* SampleMasterDetailAutomatism.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A99606A315D914F000A77ECD /* SampleMasterDetailAutomatism.xcdatamodeld */; };
+		A99606A815D914F000A77ECD /* SampleMasterDetailAutomatismMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A99606A715D914F000A77ECD /* SampleMasterDetailAutomatismMasterViewController.m */; };
+		A99606AB15D914F000A77ECD /* SampleMasterDetailAutomatismDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A99606AA15D914F000A77ECD /* SampleMasterDetailAutomatismDetailViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A996068815D914F000A77ECD /* SampleMasterDetailAutomatism.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleMasterDetailAutomatism.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A996068C15D914F000A77ECD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A996068E15D914F000A77ECD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A996069015D914F000A77ECD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A996069215D914F000A77ECD /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		A996069615D914F000A77ECD /* SampleMasterDetailAutomatism-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SampleMasterDetailAutomatism-Info.plist"; sourceTree = "<group>"; };
+		A996069815D914F000A77ECD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A996069A15D914F000A77ECD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A996069C15D914F000A77ECD /* SampleMasterDetailAutomatism-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SampleMasterDetailAutomatism-Prefix.pch"; sourceTree = "<group>"; };
+		A996069D15D914F000A77ECD /* SampleMasterDetailAutomatismAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SampleMasterDetailAutomatismAppDelegate.h; sourceTree = "<group>"; };
+		A996069E15D914F000A77ECD /* SampleMasterDetailAutomatismAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SampleMasterDetailAutomatismAppDelegate.m; sourceTree = "<group>"; };
+		A99606A115D914F000A77ECD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		A99606A415D914F000A77ECD /* SampleMasterDetailAutomatism.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SampleMasterDetailAutomatism.xcdatamodel; sourceTree = "<group>"; };
+		A99606A615D914F000A77ECD /* SampleMasterDetailAutomatismMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SampleMasterDetailAutomatismMasterViewController.h; sourceTree = "<group>"; };
+		A99606A715D914F000A77ECD /* SampleMasterDetailAutomatismMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SampleMasterDetailAutomatismMasterViewController.m; sourceTree = "<group>"; };
+		A99606A915D914F000A77ECD /* SampleMasterDetailAutomatismDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SampleMasterDetailAutomatismDetailViewController.h; sourceTree = "<group>"; };
+		A99606AA15D914F000A77ECD /* SampleMasterDetailAutomatismDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SampleMasterDetailAutomatismDetailViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A996068515D914F000A77ECD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A996068D15D914F000A77ECD /* UIKit.framework in Frameworks */,
+				A996068F15D914F000A77ECD /* Foundation.framework in Frameworks */,
+				A996069115D914F000A77ECD /* CoreGraphics.framework in Frameworks */,
+				A996069315D914F000A77ECD /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A996067D15D914F000A77ECD = {
+			isa = PBXGroup;
+			children = (
+				A996069415D914F000A77ECD /* SampleMasterDetailAutomatism */,
+				A996068B15D914F000A77ECD /* Frameworks */,
+				A996068915D914F000A77ECD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A996068915D914F000A77ECD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A996068815D914F000A77ECD /* SampleMasterDetailAutomatism.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A996068B15D914F000A77ECD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A996068C15D914F000A77ECD /* UIKit.framework */,
+				A996068E15D914F000A77ECD /* Foundation.framework */,
+				A996069015D914F000A77ECD /* CoreGraphics.framework */,
+				A996069215D914F000A77ECD /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A996069415D914F000A77ECD /* SampleMasterDetailAutomatism */ = {
+			isa = PBXGroup;
+			children = (
+				A996069D15D914F000A77ECD /* SampleMasterDetailAutomatismAppDelegate.h */,
+				A996069E15D914F000A77ECD /* SampleMasterDetailAutomatismAppDelegate.m */,
+				A99606A015D914F000A77ECD /* MainStoryboard.storyboard */,
+				A99606A615D914F000A77ECD /* SampleMasterDetailAutomatismMasterViewController.h */,
+				A99606A715D914F000A77ECD /* SampleMasterDetailAutomatismMasterViewController.m */,
+				A99606A915D914F000A77ECD /* SampleMasterDetailAutomatismDetailViewController.h */,
+				A99606AA15D914F000A77ECD /* SampleMasterDetailAutomatismDetailViewController.m */,
+				A99606A315D914F000A77ECD /* SampleMasterDetailAutomatism.xcdatamodeld */,
+				A996069515D914F000A77ECD /* Supporting Files */,
+			);
+			path = SampleMasterDetailAutomatism;
+			sourceTree = "<group>";
+		};
+		A996069515D914F000A77ECD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A996069615D914F000A77ECD /* SampleMasterDetailAutomatism-Info.plist */,
+				A996069715D914F000A77ECD /* InfoPlist.strings */,
+				A996069A15D914F000A77ECD /* main.m */,
+				A996069C15D914F000A77ECD /* SampleMasterDetailAutomatism-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A996068715D914F000A77ECD /* SampleMasterDetailAutomatism */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A99606AE15D914F000A77ECD /* Build configuration list for PBXNativeTarget "SampleMasterDetailAutomatism" */;
+			buildPhases = (
+				A996068415D914F000A77ECD /* Sources */,
+				A996068515D914F000A77ECD /* Frameworks */,
+				A996068615D914F000A77ECD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SampleMasterDetailAutomatism;
+			productName = SampleMasterDetailAutomatism;
+			productReference = A996068815D914F000A77ECD /* SampleMasterDetailAutomatism.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A996067F15D914F000A77ECD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SampleMasterDetailAutomatism;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = fakestarbaby;
+			};
+			buildConfigurationList = A996068215D914F000A77ECD /* Build configuration list for PBXProject "SampleMasterDetailAutomatism" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A996067D15D914F000A77ECD;
+			productRefGroup = A996068915D914F000A77ECD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A996068715D914F000A77ECD /* SampleMasterDetailAutomatism */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A996068615D914F000A77ECD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A996069915D914F000A77ECD /* InfoPlist.strings in Resources */,
+				A99606A215D914F000A77ECD /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A996068415D914F000A77ECD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A996069B15D914F000A77ECD /* main.m in Sources */,
+				A996069F15D914F000A77ECD /* SampleMasterDetailAutomatismAppDelegate.m in Sources */,
+				A99606A515D914F000A77ECD /* SampleMasterDetailAutomatism.xcdatamodeld in Sources */,
+				A99606A815D914F000A77ECD /* SampleMasterDetailAutomatismMasterViewController.m in Sources */,
+				A99606AB15D914F000A77ECD /* SampleMasterDetailAutomatismDetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A996069715D914F000A77ECD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A996069815D914F000A77ECD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A99606A015D914F000A77ECD /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A99606A115D914F000A77ECD /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A99606AC15D914F000A77ECD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A99606AD15D914F000A77ECD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A99606AF15D914F000A77ECD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SampleMasterDetailAutomatism/SampleMasterDetailAutomatism-Prefix.pch";
+				INFOPLIST_FILE = "SampleMasterDetailAutomatism/SampleMasterDetailAutomatism-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A99606B015D914F000A77ECD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SampleMasterDetailAutomatism/SampleMasterDetailAutomatism-Prefix.pch";
+				INFOPLIST_FILE = "SampleMasterDetailAutomatism/SampleMasterDetailAutomatism-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A996068215D914F000A77ECD /* Build configuration list for PBXProject "SampleMasterDetailAutomatism" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A99606AC15D914F000A77ECD /* Debug */,
+				A99606AD15D914F000A77ECD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A99606AE15D914F000A77ECD /* Build configuration list for PBXNativeTarget "SampleMasterDetailAutomatism" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A99606AF15D914F000A77ECD /* Debug */,
+				A99606B015D914F000A77ECD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A99606A315D914F000A77ECD /* SampleMasterDetailAutomatism.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A99606A415D914F000A77ECD /* SampleMasterDetailAutomatism.xcdatamodel */,
+			);
+			currentVersion = A99606A415D914F000A77ECD /* SampleMasterDetailAutomatism.xcdatamodel */;
+			path = SampleMasterDetailAutomatism.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A996067F15D914F000A77ECD /* Project object */;
+}
